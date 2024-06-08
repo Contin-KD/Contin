@@ -1,4 +1,4 @@
-var posts=["2024/06/07/hello-world/"];function toRandomPost(){
+var posts=["2024/06/07/hello-world/","2024/06/08/Dots/","2024/06/08/ECS/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };var friend_link_list=[];
     var refreshNum = 1;
